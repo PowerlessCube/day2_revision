@@ -51,7 +51,7 @@ class Functions_Practice < MiniTest::Test
     third_month_string = number_to_full_month_name( 3 )
     ninth_month_string = number_to_full_month_name( 9 )
     assert_equal( "January", first_month_string )
-    assert_equal( "March", third_month_string ) 
+    assert_equal( "March", third_month_string )
     assert_equal( "September", ninth_month_string )
   end
 
@@ -66,9 +66,10 @@ class Functions_Practice < MiniTest::Test
 
   #Further
 
-  #Given the length of a side of a cube calculate the volume 
+  #Given the length of a side of a cube calculate the volume
   def test_volume_of_cube()
-
+    exponent_result = 3
+    assert_equal = (9)
   end
 
   #Given the radius of a sphere calculate the volume
