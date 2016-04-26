@@ -1,3 +1,5 @@
+require "date"
+
 def return_10()
   return 100 / 10
 end
@@ -63,5 +65,12 @@ return ((4.0/3.0)*Math::PI*radius**3).round(2)
 end
 
 def days_until_christmas()
-  
+  xmas = Date.new(2016,12,25) - Date.today
+  return xmas
+end
+
+def age_of_person()
+  b_day = Date.today - Date.new(1988,8,3)
+  age = b_day.to_i/365
+  return age
 end

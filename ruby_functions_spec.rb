@@ -81,12 +81,14 @@ class Functions_Practice < MiniTest::Test
   #http://ruby-doc.org/stdlib-2.1.1/libdoc/date/rdoc/Date.html
   #Days until christmas, Calculate how many nights there are from today until Christmas morning
   def test_days_until_christmas()
-
+    days = days_until_christmas
+    assert_equal(243, days)
   end
 
   #Given a date of birth, calculate how old a person born on that date would be
   def test_age_of_person()
-
+    b_day = age_of_person
+    assert_equal(27, b_day)
   end
 
 
